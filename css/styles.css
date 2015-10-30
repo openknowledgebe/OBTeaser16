@@ -1,5 +1,8 @@
 .clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
 html {background: #68ceb5; color: white;}
+a {text-decoration: none; color: #c93f3f; font-size: 12px; font-family: 'Montserrat';}
+a:hover {color: #383838;}
+p:last-of-type {margin-bottom: 3rem;}
 #mc_embed_signup{clear:left; font-size: 14px; font-family: 'Montserrat', sans-serif; text-transform: uppercase; text-align: center;}
 #mc_embed_signup img {margin: 5rem 0 3rem 0;}
 #mc_embed_signup p {font-size: 12px;font-family: 'Montserrat', sans-serif; color: white; font-weight: bold;}
@@ -21,6 +24,8 @@ input {font-size: 15px;}
     #mc_embed_signup .mc-field-group {width: 100%;}
     #mc_embed_signup img {margin: 3rem 0 0 0; width: 15rem;}
     #mc-embedded-subscribe-form{margin: 3rem auto 1rem auto;}
+    a {font-size: 10px;}
+    p:last-of-type {margin-bottom: 1.5rem;}
 }
 
 @media screen and (max-width: 500px) {
