@@ -10,7 +10,7 @@ input {font-size: 15px;}
 #mc_embed_signup .mc-field-group {clear: none; width: 44.5rem; margin: auto; text-align: center; padding-bottom: 0;}
 #mc_embed_signup .button {clear: none; background-color: #c93f3f; border-radius: 0;}
 #mc_embed_signup .button:hover {background-color: #383838;}
-#mc_embed_signup .mc-field-group input {float: left; width: 80%; margin: 0 !important;}
+#mc_embed_signup .mc-field-group input {float: left; width: calc(80% - 2px); margin: 0 !important;}
 #mc_embed_signup div.mce_inline_error {width: 30%; margin: auto !important; text-align: center; padding: 5px 0 !important;}
 .mc-field-group #mc-embedded-subscribe {width: 20% !important; padding: 0 !important; height: 35px;}
 #mc-embedded-subscribe {clear:none;}
@@ -29,13 +29,13 @@ input {font-size: 15px;}
 }
 
 @media screen and (max-width: 400px) {
-    #mc_embed_signup .mc-field-group input {width: 70%;}
+    #mc_embed_signup .mc-field-group input {width: calc(70% - 2px);}
     .mc-field-group #mc-embedded-subscribe {width: 30% !important;}
     #mc_embed_signup img {margin: 1rem 0 0 0;}
 }
 
 @media screen and (max-width: 270px) {
-    #mc_embed_signup .mc-field-group input {width: 60%;}
+    #mc_embed_signup .mc-field-group input {width: calc(60% - 2px);}
     .mc-field-group #mc-embedded-subscribe {width: 40% !important;}
     #mc_embed_signup img {width: 100%;}
 }
