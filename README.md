@@ -12,13 +12,10 @@ This website has some organisation specific variables in it. If you want to recr
 
 Open Belgium employee:
 
+Stan Callewaert
 
-Name: Stan Callewaert
-
-Email: callewaert.stan@gmail.com
-
-Twitter: @CallewaertStan
-
-LinkedIn: https://be.linkedin.com/in/stancallewaert
+* Email: callewaert.stan@gmail.com
+* Twitter: @CallewaertStan
+* LinkedIn: https://be.linkedin.com/in/stancallewaert
 
 Don't hesitate to contact me!
