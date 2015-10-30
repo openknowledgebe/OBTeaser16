@@ -1,0 +1,41 @@
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+html {background: #68ceb5; color: white;}
+#mc_embed_signup{clear:left; font-size: 14px; font-family: 'Montserrat', sans-serif; text-transform: uppercase; text-align: center;}
+#mc_embed_signup img {margin: 5rem 0 3rem 0;}
+#mc_embed_signup p {font-size: 12px;font-family: 'Montserrat', sans-serif; color: white; font-weight: bold;}
+input {font-size: 15px;}
+#mc-embedded-subscribe-form{width: 100%; margin: 5rem auto;}
+#mc_embed_signup_scroll{text-align: center; width: 100%;}
+#mc_embed_signup form {padding: 0;}
+#mc_embed_signup .mc-field-group {clear: none; width: 44.5rem; margin: auto; text-align: center; padding-bottom: 0;}
+#mc_embed_signup .button {clear: none; background-color: #c93f3f; border-radius: 0;}
+#mc_embed_signup .button:hover {background-color: #383838;}
+#mc_embed_signup .mc-field-group input {float: left; width: 80%; margin: 0 !important;}
+#mc_embed_signup div.mce_inline_error {width: 30%; margin: auto !important; text-align: center; padding: 5px 0 !important;}
+.mc-field-group #mc-embedded-subscribe {width: 20% !important; padding: 0 !important; height: 35px;}
+#mc-embedded-subscribe {clear:none;}
+
+@media screen and (max-width: 730px) {
+    #mc_embed_signup_scroll h2{font-size: 13px;}
+    #mc_embed_signup p {font-size:11px;}
+    #mc_embed_signup .mc-field-group {width: 100%;}
+    #mc_embed_signup img {margin: 3rem 0 0 0; width: 15rem;}
+    #mc-embedded-subscribe-form{margin: 3rem auto 1rem auto;}
+}
+
+@media screen and (max-width: 500px) {
+    #mc_embed_signup_scroll h2{font-size: 12px;}
+    #mc_embed_signup p {font-size:10px;}
+}
+
+@media screen and (max-width: 400px) {
+    #mc_embed_signup .mc-field-group input {width: 70%;}
+    .mc-field-group #mc-embedded-subscribe {width: 30% !important;}
+    #mc_embed_signup img {margin: 1rem 0 0 0;}
+}
+
+@media screen and (max-width: 270px) {
+    #mc_embed_signup .mc-field-group input {width: 60%;}
+    .mc-field-group #mc-embedded-subscribe {width: 40% !important;}
+    #mc_embed_signup img {width: 100%;}
+}
