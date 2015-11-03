@@ -21,17 +21,28 @@
     <meta name="twitter:url" content="http://2016.openbelgium.be" />
     <script type="application/ld+json">
     {
-        "@context": "http://schema.org",
-        "@type": "Event",
-        "name": "Open Belgium 2016",
+        "@context" : "http://schema.org",
+        "@type" : "Event",
+        "name" : "Open Belgium 2016",
         "startDate" : "2016-02-29T09:00",
         "endDate" : "2016-02-29T22:00",
         "url" : "http://2016.openbelgium.be",
         "location" : {
             "@type" : "Place",
             "name" : "Hof van Liere",
-            "address" : "Prinsstraat 13, Antwerp"
-        }
+            "address": {
+                "@type" : "PostalAddress",
+                "streetAddress" : "Prinsstraat 13",
+                "addressLocality" : "Antwerp",
+                "addressRegion" : "Antwerp",
+                "postalCode" : "2000"
+            }
+        },
+        "offers" : {
+            "@type" : "Offer",
+            "name": "Open Belgium 2016"
+        },
+        "previousStartDate" : "2015-02-23T09:30"
     }
     </script>
     <!-- This page -->
